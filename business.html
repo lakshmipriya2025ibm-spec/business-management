@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Management</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #0056b3;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #003f7f;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: #007BFF;
+        }
+
+        .services, .team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .service, .member {
+            flex: 1 1 calc(33% - 20px);
+            background: #e9ecef;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .service h3, .member h3 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .service, .member {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ABC Business Management</h1>
+        <p>Your Partner in Growth and Success</p>
+    </header>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Consulting</h3>
+                    <p>Expert advice to improve business efficiency and strategy.</p>
+                </div>
+                <div class="service">
+                    <h3>Financial Planning</h3>
+                    <p>Comprehensive financial management and investment guidance.</p>
+                </div>
+                <div class="service">
+                    <h3>Marketing</h3>
+                    <p>Effective marketing solutions to grow your customer base.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="team">
+            <h2>Our Team</h2>
+            <div class="team">
+                <div class="member">
+                    <h3>Lakshmi Priya</h3>
+                    <p>CEO & Founder</p>
+                </div>
+                <div class="member">
+                    <h3>Gayathri</h3>
+                    <p>Finance Manager</p>
+                </div>
+                <div class="member">
+                    <h3>Jeya Bharathi</h3>
+                    <p>Marketing Head</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@abcbusiness.com</p>
+            <p>Phone: +1 234 567 890</p>
+            <p>Address: 123 Business Street, Thanjavur, Tamil nadu, India</p>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2025 ABC Business Management. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
